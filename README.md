@@ -9,7 +9,7 @@ A Magento 2 module by Shubham Kanungo to find and safely clean up orphaned produ
 * **Quarantine:** Moves orphaned files to a safe `var/orphan_media_quarantine` directory instead of hard-deleting them, giving you a chance to review them.
 
 ### Module CMD
-```bash
+
 php bin/magento media:orphan:clean                 // Run a Dry-Run Audit
 php bin/magento media:orphan:clean --list          // View a Detailed List of Orphans
 php bin/magento media:orphan:clean --quarantine   // Safely Quarantine Orphaned Files
