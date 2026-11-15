@@ -1,5 +1,5 @@
 {
-    "name": "shubhamkanungoo007/module-media-orphan-finder",
+    "name": "shubham/module-media-orphan-finder",
     "description": "A Magento 2 module to find and clean orphaned media files.",
     "type": "magento2-module",
     "version": "1.0.0",
