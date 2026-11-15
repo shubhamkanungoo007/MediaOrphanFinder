@@ -1,0 +1,19 @@
+{
+    "name": "shubhamkanungoo007/module-media-orphan-finder",
+    "description": "A Magento 2 module to find and clean orphaned media files.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shubham\\MediaOrphanFinder\\": ""
+        }
+    }
+}
